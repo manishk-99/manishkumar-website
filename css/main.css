@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #1a311acb;
+    background: #303130cb;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #284b28cb;
+    background: #7d837dcb;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -57,14 +57,14 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #1cf1bc; }
+      border: solid 3px #ffffff; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #1cf1bc; }
+      color: #ffffff; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #1cf1bc;
+      color: #ffffff;
         transform: scale(1.25)
 }
 
@@ -139,7 +139,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #1cf1bc; }
+  color: #ffffff; }
 
 main {
   padding: 4rem;
@@ -149,7 +149,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #1cf1bc;
+        color: #ffffff;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -165,7 +165,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #1cf1bc 3px solid; }
+    border: #ffffff 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -178,7 +178,7 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: #1cf1bc 5px solid; }
+    border-bottom: #ffffff 5px solid; }
 
 .projects {
   display: grid;
@@ -189,7 +189,7 @@ main {
     border: 3px rgb(0, 0, 0) solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #1cf1bc;
+      border-color: #ffffff;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -206,7 +206,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #1cf1bc;
+      background: #ffffff;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -217,7 +217,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #1cf1bc;
+    background: #ffffff;
     color: #000; }
 
 .btn-dark {
